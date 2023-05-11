@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trello Board</title>
+</head>
+<body>
+  <div id="board"></div>
+
+  <script>
+    const apiKey = '745635b1e5a600ae7effe1defacbb909';
+    const apiToken = '40edbe2c3b8c63a5c59b52225790194bfe3779662fec4f8104d386c9053718d4';
+    const boardId = 'rvMc25C3';
+
+    async function fetchBoardData() {
+      const response = await fetch(`https://api.trello.com/1/boards/${boardId}/lists?key=${apiKey}&token=${apiToken}`);
+      if (!response.ok) {
+        throw new Error(`Error fetching Trello board data: ${response.statusText}`);
+      }
+      return await response.json();
+    }
+
+    async function displayBoard() {
+      try {
+        const boardData = await fetchBoardData();
+        const boardDiv = document.getElementById('board');
+
+        boardData.forEach(list => {
+          const listDiv = document.createElement('div');
+          listDiv.textContent = list.name;
+          boardDiv.appendChild(listDiv);
+        });
+      } catch (error) {
+        console.error(error);
+      }
+    }
+
+    displayBoard();
+  </script>
+</body>
+</html>
