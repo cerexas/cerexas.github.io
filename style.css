@@ -9,9 +9,9 @@ body {
 }
 
 .entry {
-	border-left: 10px solid darkslategray;
-	padding: 0px 10px 10px 10px;
-	border-radius: 0 30px 30px 0;
+	border-left: 10px solid darkgray;
+	padding: 4px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
 	margin-bottom: 20px;
 	background-color: #eee;
 	}
@@ -20,7 +20,7 @@ body {
 
 #blog-section {
 	flex: 4;
-	background-color: lightblue;
+	background-color: darkslategray;
 	padding: 20px;
 }
 

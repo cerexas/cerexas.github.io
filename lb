@@ -48,7 +48,7 @@ publish() { \
 	webdate="$(date '+%a, %d. %b %Y %H:%M')" # But this visible date you can set to any format.
 	tmpdir=$(mktemp -d)
 	printf "\\n<item>\\n<title>%s</title>\\n<guid>%s%s#%s</guid>\\n<pubDate>%s</pubDate>\\n<description><![CDATA[\\n%s\\n]]></description>\\n</item>\\n\\n" "$realname" "$website" "$blogfile" "$base" "$rssdate" "$(cat "$webdir/blog/.drafts/$basefile")" >  "$tmpdir/rss"
-	printf "<div class='entry'>\\n<h2 id='%s'>%s</h2>\\n%s\\n<small>%s</small>\\n</div>\\n" "$base" "$realname" "$(cat "$webdir/blog/.drafts/$basefile")" "$webdate" > "$tmpdir/html"
+	printf "<div class='entry'>\\n<h2 id='%s'>%s</h2>\\n<hr>\\n%s\\n<small>%s</small>\\n</div>\\n" "$base" "$realname" "$(cat "$webdir/blog/.drafts/$basefile")" "$webdate" > "$tmpdir/html"
 	printf "<li>%s &ndash; <a href=\"blog/%s\">%s</a></li>\\n" "$(date '+%Y %b %d')" "$basefile" "$realname" > "$tmpdir/index"
 	sed -i "/<!-- LB -->/r $tmpdir/html" "$blogfile"
 	sed -i "/<!-- LB -->/r $tmpdir/rss" "$rssfile"
