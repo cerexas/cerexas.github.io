@@ -5,7 +5,7 @@ body {
 
 .container {
 	display: flex;
-	height: 100vh;
+	height: flex;
 }
 
 .entry {
@@ -33,5 +33,5 @@ body {
 }
 
 #github-section, #links-section {
-	flex: 1;
+	padding: 0px 0px 5px 0px;
 }
