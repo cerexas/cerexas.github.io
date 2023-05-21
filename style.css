@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.container {
+	display: flex;
+	height: 100vh;
+}
+
+#blog-section {
+	flex: 4;
+	background-color: lightblue;
+	padding: 20px;
+}
+
+#right-section {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	background-color: lightgray;
+	padding: 20px;
+}
+
+#github-section, #links-section {
+	flex: 1;
+}
+
+.entry {
+	border-left: 10px solid darkslategray;
+	padding: 0px 10px 10px 10px;
+	border-radius: 0 30px 30px 0;
+	margin-bottom: 20px;
+	background-color: #eee;
+	}
+
+.entry h2 { margin: 5px auto 2px auto; }
