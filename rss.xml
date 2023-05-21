@@ -3,14 +3,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
 <channel>
-<title>Your RSS Feed Title</title>
-<description>A brief description of your RSS feed.</description>
-<language>en-us</language>
-<link>http://yourwebsite.com/rss.xml</link>
-<atom:link href="http://yourwebsite.com/rss.xml" rel="self" type="application/rss+xml" />
+<title>Cerex Dash</title>
+<description>Internal feed for Cerex updates.</description>
+<language>nb-NO</language>
+<link>http://cerex.no/rss.xml</link>
+<atom:link href="http://cerex.no/rss.xml" rel="self" type="application/rss+xml" />
 
 <!-- LB -->
 
 </channel>
 </rss>
-
