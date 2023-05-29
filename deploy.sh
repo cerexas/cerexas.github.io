@@ -37,7 +37,7 @@ ln -s /etc/nginx/sites-available/cerex /etc/nginx/sites-enabled/cerex
 systemctl reload nginx
 
 echo "Setting up website..."
-git clone https://github.com/cerexas/cerexas.github.io /var/www/cerex
+git clone -b hugo https://github.com/cerexas/cerexas.github.io /var/www/cerex
 rm -rf /var/www/cerex/.git
 
 echo "Running certbot..."
