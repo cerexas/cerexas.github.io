@@ -34,7 +34,7 @@ echo "Setting up nginx configuration..."
 rm -f /etc/nginx/sites-enabled/default
 (cd /etc/nginx/sites-available && curl -LO https://cerexas.github.io/cerex)
 ln -s /etc/nginx/sites-available/cerex /etc/nginx/sites-enabled/cerex
-service nginx reload
+systemctl nginx reload
 
 echo "Setting up website..."
 mkdir /var/www/cerex
