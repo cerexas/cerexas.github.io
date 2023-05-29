@@ -15,7 +15,7 @@ useradd -m -G mail ole
 echo "Setting passwords..."
 echo "Set password for user gunnar"
 passwd gunnar
-echo "Set password for user spam"
+echo "Set password for user ole"
 passwd ole
 
 echo "Getting .bashrc file..."
