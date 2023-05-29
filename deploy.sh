@@ -44,7 +44,7 @@ echo "Running certbot..."
 certbot --nginx
 
 echo "Add the certbot renew command to the cron jobs list"		# Not working!
-(crontab -l 2>/dev/null || echo "") | { cat; echo "0 0 1 * * certbot renew"; } | crontab -
+(crontab -l 2>/dev/null; echo "0 0 1 * * certbot renew") | crontab -
 
 echo "Set shell to bash"
 chsh -s /bin/bash $USER
