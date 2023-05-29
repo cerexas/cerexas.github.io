@@ -32,7 +32,7 @@ apt-get install -y nginx rsync git
 
 echo "Setting up nginx configuration..."
 rm -f /etc/nginx/sites-enabled/default
-(cd /etc/nginx/sites-available && curl -LO https://cerexas.github.io/cerex)
+curl -Lo /etc/nginx/sites-available/cerex https://cerexas.github.io/cerex
 ln -s /etc/nginx/sites-available/cerex /etc/nginx/sites-enabled/cerex
 systemctl reload nginx
 
