@@ -9,9 +9,9 @@ curl -LO larbs.xyz/emailwiz.sh
 bash emailwiz.sh
 
 echo "Adding mail users..."
-useradd -m -G mail post
-useradd -m -G mail gunnar
-useradd -m -G mail ole
+for user in post gunnar ole; do
+    useradd -m -G mail "$user"
+done
 
 echo "Setting passwords..."
 echo "Set password for user post"
