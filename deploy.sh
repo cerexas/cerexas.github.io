@@ -37,7 +37,6 @@ ln -s /etc/nginx/sites-available/cerex /etc/nginx/sites-enabled/cerex
 systemctl reload nginx
 
 echo "Setting up website..."
-mkdir /var/www/cerex
 git clone https://github.com/cerexas/cerexas.github.io /var/www/cerex
 rm -rf /var/www/cerex/.git
 
@@ -45,7 +44,7 @@ echo "Running certbot..."
 certbot --nginx
 
 echo "Add the certbot renew command to the cron jobs list"		# Not working!
-(crontab -l 2>/dev/null; echo "0 0 1 * * certbot renew") | crontab -
+(crontab -l 2>/dev/null || echo "") | { cat; echo "0 0 1 * * certbot renew"; } | crontab -
 
 echo "Set shell to bash"
 chsh -s /bin/bash $USER
