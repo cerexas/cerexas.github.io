@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://cerex.no/partners/</loc>
+    <lastmod>2023-05-22T12:03:38+02:00</lastmod>
+  </url><url>
+    <loc>http://cerex.no/</loc>
+    <lastmod>2023-05-13T12:50:58+02:00</lastmod>
+  </url><url>
+    <loc>http://cerex.no/contact/</loc>
+    <lastmod>2023-05-13T12:43:32+02:00</lastmod>
+  </url><url>
+    <loc>http://cerex.no/projects/</loc>
+    <lastmod>2023-05-13T12:43:20+02:00</lastmod>
+  </url><url>
+    <loc>http://cerex.no/about/</loc>
+    <lastmod>2023-05-13T12:43:11+02:00</lastmod>
+  </url><url>
+    <loc>http://cerex.no/categories/</loc>
+  </url><url>
+    <loc>http://cerex.no/tags/</loc>
+  </url>
+</urlset>

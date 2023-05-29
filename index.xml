@@ -1,0 +1,65 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>CEREX - sw sol&#39;ns</title>
+	<link>http://cerex.no/</link>
+	<description>Recent content on CEREX - sw sol&#39;ns</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>nb-NO</language>
+	<lastBuildDate>Sat, 13 May 2023 12:50:58 +0200</lastBuildDate>
+    
+        <atom:link href="http://cerex.no/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Partners</title>
+		<link>http://cerex.no/partners/</link>
+		<pubDate>Mon, 22 May 2023 12:03:38 +0200</pubDate>
+		
+		<guid>http://cerex.no/partners/</guid>
+		<description>&lt;p&gt;Cerex has worked with the University of Stavanger, developing software for the SPEDAIMS research group. The app is written in Kotlin and is available to view in the app store.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Contact</title>
+		<link>http://cerex.no/contact/</link>
+		<pubDate>Sat, 13 May 2023 12:43:32 +0200</pubDate>
+		
+		<guid>http://cerex.no/contact/</guid>
+		<description>&lt;p&gt;&lt;a href=&#34;mailto:post@cerex.no&#34;&gt;post@cerex.no&lt;/a&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>Projects</title>
+		<link>http://cerex.no/projects/</link>
+		<pubDate>Sat, 13 May 2023 12:43:20 +0200</pubDate>
+		
+		<guid>http://cerex.no/projects/</guid>
+		<description>&lt;p&gt;Crack Detection Model &lt;br&gt;
+Using computer vision models we train a model to detect concrete cracking in a given image.&lt;/p&gt;
+&lt;p&gt;Image Annotation Assistant &lt;br&gt;
+We are working with computer vision models and therefore developed a tool to assist in image annotation. This project is a work in progress, but we are looking to add issues with empty annotations, wrong annotations, auto-annotation, smart-boxing, etc.&lt;/p&gt;
+&lt;p&gt;AI with API control system for electrical appliances &lt;br&gt;
+Trivial project looking at using data from SSB to evaluate power cost in electrical appliances. We use Tibber&amp;rsquo;s API to retrieve real time power costs and train a model on generalized heat loss to assist in reducing the user&amp;rsquo;s power costs.&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>About</title>
+		<link>http://cerex.no/about/</link>
+		<pubDate>Sat, 13 May 2023 12:43:11 +0200</pubDate>
+		
+		<guid>http://cerex.no/about/</guid>
+		<description>&lt;h2 id=&#34;team&#34;&gt;Team&lt;/h2&gt;
+&lt;p&gt;Gunnar K. Halvorsen &lt;br&gt;
+Background in statistics. Experience with computer vision and machine learning in R and Python.&lt;/p&gt;
+&lt;p&gt;Ole K. Grindhaug &lt;br&gt;
+A former physics student at UiS. I am currently working with AI on applying computer-vision models to identify safety hazards on norwegian public infrastructure.&lt;/p&gt;
+&lt;h2 id=&#34;company&#34;&gt;Company&lt;/h2&gt;
+&lt;p&gt;We are a company working on several fields within AI, our main competence is in data-analysis and development of computer vision models.&lt;/p&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>
