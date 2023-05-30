@@ -28,7 +28,7 @@ echo "Getting .bashrc file..."
 curl -Lo .bashrc https://ghalv.github.io/bashrc #; source ~/.bashrc
 
 echo "Installing necessary packages..."
-apt-get install -y nginx rsync git
+apt-get install -y python3-certbot-nginx nginx rsync git
 
 echo "Setting up nginx configuration..."
 rm -f /etc/nginx/sites-enabled/default
@@ -43,7 +43,7 @@ rm -rf /var/www/cerex/.git
 echo "Running certbot..."
 certbot --nginx
 
-echo "Add the certbot renew command to the cron jobs list"		# Not working!
+echo "Add the certbot renew command to the cron jobs list"
 (crontab -l 2>/dev/null; echo "0 0 1 * * certbot renew") | crontab -
 
 echo "Set shell to bash"
