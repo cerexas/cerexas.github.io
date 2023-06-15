@@ -1,11 +1,14 @@
 body {
 	margin: 0;
 	font-family: sans-serif;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 .container {
 	display: flex;
-	height: flex;
+	height: 100vh;
 }
 
 .entry {
