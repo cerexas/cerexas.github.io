@@ -11,5 +11,18 @@
 
 <!-- LB -->
 
+<item>
+<title>Lenker av forbigående interesse</title>
+<guid>https://dash.cerex.no/index.html#lenker-av-forbigaende-interesse</guid>
+<pubDate>Tue, 11 Jul 2023 13:21:54 +0200</pubDate>
+<description><![CDATA[
+<ul>
+	<li><a href="https://cultists.network/140/psu-tier-list/">PSU Tier List</a></li>
+	<li><a href="https://rpilocator.com/">RPi Locator</a></li>
+</ul>
+]]></description>
+</item>
+
+
 </channel>
 </rss>
