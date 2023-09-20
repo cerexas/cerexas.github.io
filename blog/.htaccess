@@ -2,3 +2,5 @@ Options +Indexes
 AddDescription "Events som kan være av interesse" "events-som-kan-vaere-av-interesse.html" #Sun, 21 May 2023 22:14:23 +0200
 AddDescription "Lenker av forbigående interesse" "lenker-av-forbigaende-interesse.html"
 AddDescription "Lenker av forbigående interesse" "lenker-av-forbigaende-interesse.html" #Tue, 11 Jul 2023 13:21:54 +0200
+AddDescription "Email setup" "email-setup.html"
+AddDescription "Email setup" "email-setup.html" #Wed, 20 Sep 2023 15:58:37 +0200
